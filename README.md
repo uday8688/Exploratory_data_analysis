@@ -12,11 +12,46 @@ In this project, the main purpose is to predict the score ,by using the past dat
 
 IPL score prediction- Data contains the information about the all the past data from past 12 years. The dataset contains the information like runs, venues, batsman , teams , wickets…etc
  
-Data Set Description: 
-Contains  rows 76014 and 8 columns 
  
+ #### Dataset Description
  
+ Contains  rows 76014 and 8 columns 
+ 
+• mid: Unique match id.
 
-1.6 Tools & Techniques 
-Tools: Jupyter Notebook. 
-Techniques: Linear Regression, Decision Tree regressor, Neural Networks, lasso regressor. Random Forest Regression , Support Vector Machine
+• date: Date on which the match was played.
+
+• venue: Stadium where match was played.
+
+• battingteam: Batting team name.
+
+• bowlingteam: Bowling team name.
+
+• batsman: Batsman who faced that particular ball.
+
+• bowler: Bowler who bowled that particular ball.
+
+• runs: Runs scored by team till that point of instance.
+
+• wickets: Number of Wickets fallen of the team till that point of instance.
+
+• overs: Number of Overs bowled till that point of instance.
+
+• runslast5: Runs scored in previous 5 overs.
+
+• wicketslast5: Number of Wickets that fell in previous 5 overs.
+
+• striker: max(runs scored by striker, runs scored by non-striker).
+
+• non-striker: min(runs scored by striker, runs scored by non-striker).
+
+• total: Total runs scored by batting team at the end of first innings.
+
+## Algorithms Used
+- *Decision Tree Regressor*
+- *Linear Regression*
+- *Random Forest Regression*
+- *Lasso Regression*
+- *Support Vector Machine Regression*
+- *Neural Network Regression*
+
