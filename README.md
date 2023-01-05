@@ -1,7 +1,6 @@
 # ILP_score_prediction
 
-
-	Title & Objective of the study  
+ 
 
 ‘IPL SCORE PREDICTION PROJECT’ is the project we are working upon which falls under the IPL(Indian premier league)  T-20 . It contains all the data from regarding venues, teams, wickets, runs etc…. through 2008-2020. The primary purpose of working on this project is to predict the score based on the actual, whether the actual and the predicted were similar or not by training the past data. In simple terms, regression is a technique used to predict the unknown value of an object, using the characteristics of the object and by having some information about other similar objects for which we know the value.
  
